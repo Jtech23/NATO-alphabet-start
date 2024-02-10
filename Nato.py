@@ -12,6 +12,6 @@ dictionary = {row.letter: row.code for (index, row) in file.iterrows()}
 word = input("Which word do you want to write in Nato Language: ").upper()
 nato = []
 for letter in word:
-    nato += ([value for (key, value) in (dictionary.items()) if key == letter])
+    nato += (value for (key, value) in dictionary.items() if key == letter)
 print(nato)
 
