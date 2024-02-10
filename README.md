@@ -1,1 +1,1 @@
-Source code to generate the NATO Alphabet of a word or sentence.
+The source code to generate the NATO Alphabet of a word or sentence.
